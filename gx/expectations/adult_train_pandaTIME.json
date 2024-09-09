@@ -1,0 +1,45 @@
+{
+  "data_asset_type": null,
+  "expectation_suite_name": "adult_train_pandaTIME",
+  "expectations": [
+    {
+      "expectation_type": "expect_table_columns_to_match_ordered_list",
+      "kwargs": {
+        "column_list": [
+          "age",
+          "workclass",
+          "fnlwgt",
+          "education",
+          "education-num",
+          "marital-status",
+          "occupation",
+          "relationship",
+          "race",
+          "sex",
+          "capital-gain",
+          "capital-loss",
+          "hours-per-week",
+          "native-country",
+          "y"
+        ]
+      },
+      "meta": {}
+    }
+  ],
+  "ge_cloud_id": null,
+  "meta": {
+    "citations": [
+      {
+        "batch_request": {
+          "data_asset_name": "adult_train.csv",
+          "data_connector_name": "default_inferred_data_connector_name",
+          "datasource_name": "lance_test_pandas",
+          "limit": 1000
+        },
+        "citation_date": "2024-09-05T21:46:54.620315Z",
+        "comment": "Created suite added via CLI"
+      }
+    ],
+    "great_expectations_version": "0.18.19"
+  }
+}
